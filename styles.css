@@ -7,11 +7,6 @@ body, html {
     height: 100%;
 }
 
-/* header {
-    margin: 0px;
-    padding: 0px;
-} */
-
 main {
     margin-top: 0px;
     width:100%;
@@ -43,9 +38,8 @@ main {
     margin: 0px 0px 20px 0px;
     float:left;
     border: 2px solid;
-    /* display:inline; */
+    display:block;
     background-color: floralwhite;
-    /* overflow:auto; */
     border-color:lightcoral;
     padding: 5px;
 }
@@ -55,7 +49,7 @@ main {
     margin: 0px 0px 20px 0px;
     float:right;
     border: 2px solid;
-    /* display:inline; */
+    display:inline;
     background-color: floralwhite;
 }
 
