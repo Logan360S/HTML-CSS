@@ -85,7 +85,7 @@ main {
 .navbar {
     height: 108px;
     background-color:rgb(170, 226, 226);
-
+    
 }
 
 /* a.navHome {
@@ -102,8 +102,22 @@ main {
 .navbuttons {
     padding: 5px;
     color:black;
-    
 }
+
+.dropdown {
+    overflow: hidden;
+    display:inline-block;
+}
+
+.dropdown-content {
+    display:block;
+    position: absolute;
+    background-color:lightgray;
+    /* min-width: 100px; */
+    /* z-index:1; */
+}
+
+
 
 a.navbuttons:hover {
     text-decoration: none;
