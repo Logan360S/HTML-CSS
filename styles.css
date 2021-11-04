@@ -106,22 +106,33 @@ main {
 
 .dropdown {
     overflow: hidden;
-    display:inline-block;
+    display: inline-block;
 }
 
 .dropdown-content {
-    display:block;
+    display: none;
     position: absolute;
-    background-color:lightgray;
+    background-color:darkgray;
     /* min-width: 100px; */
     /* z-index:1; */
 }
 
+.dropdown-content a {
+    /* float:none; */
+    color:black;
+    display: block;
+    text-decoration: none;
+    /* text-align: left; */
+}
 
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
 a.navbuttons:hover {
     text-decoration: none;
     font-weight: bold;
+    
 }
 
 a.navbuttons:active {
