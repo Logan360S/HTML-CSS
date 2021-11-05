@@ -110,9 +110,8 @@ main {
 }
 
 .dropdown-content {
-    display: none;
+    display: block;
     position: absolute;
-    background-color:darkgray;
     /* min-width: 100px; */
     /* z-index:1; */
 }
@@ -122,16 +121,37 @@ main {
     color:black;
     display: block;
     text-decoration: none;
+    
     /* text-align: left; */
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
+    background-color:darkgray;
 }
+
+.Col1 {
+    /* display:inline-block; */
+    float:left;
+    width: 33%;
+}
+
+.Col2 {
+    /* display:inline-block; */
+    float:left;
+    width: 33%;
+}
+
+.Col3 {
+    /* display:inline-block; */
+    float:right;
+    width: 33%;
+}
+
 
 a.navbuttons:hover {
     text-decoration: none;
-    font-weight: bold;
+    background-color:aqua;
     
 }
 
