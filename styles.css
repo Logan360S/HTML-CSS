@@ -110,7 +110,7 @@ main {
 }
 
 .dropdown-content {
-    display: hidden;
+    display: none;
     position: absolute;
     right:0px;
     padding: 5px;
