@@ -7,6 +7,11 @@ body, html {
     height: 100%;
 }
 
+header {
+    position: sticky;
+    top: 0px;
+}
+
 main {
     margin-top: 0px;
     width:100%;
@@ -97,15 +102,16 @@ main {
     margin: 25px 0px 10px 10px;
     border-radius: 10%;
     filter: opacity(80%);
+    
 }
 
 .navbuttons {
     padding: 5px;
     color:black;
+   
 }
 
 .dropdown {
-    overflow: hidden;
     display: inline-block;
 }
 
@@ -179,4 +185,11 @@ a.navbuttons:active {
 
 a.navbuttons:link {
     text-decoration: none;
+}
+
+.footerLinks {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
